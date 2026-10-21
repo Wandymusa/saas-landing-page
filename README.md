@@ -23,12 +23,9 @@ A high-converting, responsive landing page engineered for an enterprise SaaS pla
 
 ---
 
-## 🚀 Local Development Setup
+<details>
+<summary><b>🚀 Local Development Setup (Click to expand)</b></summary>
 
-Clone the repository and install dependencies:
+<br>
 
-```bash
-git clone [https://github.com/Wandymusa/saas-landing-page.git](https://github.com/Wandymusa/saas-landing-page.git)
-cd saas-landing-page
-npm install
-npm run dev
+
