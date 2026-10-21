@@ -13,7 +13,12 @@ export default function Navbar() {
         </div>
 
         <nav className="hidden md:flex items-center gap-8 text-sm text-slate-400">
-          <a href="#features" className="hover:text-white transition">Features</a>
+          <a 
+  href="#features" 
+  className="text-slate-300 hover:text-white transition cursor-pointer text-sm font-medium"
+>
+  Features
+</a>
           <a href="#pricing" className="hover:text-white transition">Pricing</a>
           <a href="#docs" className="hover:text-white transition">Documentation</a>
         </nav>
