@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
-export default defineConfig(({ isSsrBuild }) => ({
-  plugins: [react()],
-  build: {
-    copyPublicDir: !isSsrBuild,
-  },
-}))
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+})
